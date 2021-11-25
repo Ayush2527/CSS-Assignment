@@ -1,0 +1,15 @@
+.container ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container li{
+    color: #fff;
+    background-color: #4d7298 ;
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #77a686;
+    border-radius: 5px;
+}

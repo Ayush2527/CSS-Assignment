@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .parent {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .child{
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+
+  @media (max-width: 800px) {
+    .parent {
+      flex-direction: column;
+    }
+  }
+  
